@@ -1,0 +1,161 @@
+.home-container {
+    background-color: White;
+    max-height: 100%;
+    width: 350px;
+    padding: 0px;
+    right: 300px;
+    margin: auto;
+    border-radius: 30px;
+    margin-right: 16%;
+    margin-top: 30px;
+    box-shadow: 3px 3px 15px 3px black;
+}
+
+.chat-login-title h1{
+    background-color: #9A8409;
+    color: black;
+    font-size: 2.5rem;
+    padding: 15px;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
+    text-align: center;
+    font-family: "Fascinate Inline",
+        system-ui;
+    font-style: normal;
+}
+
+.register-btn-ques{
+    color: #005D6F;
+    background-color: white;
+    text-align: center;
+    margin: -6px 15px; 
+    padding: 0px;
+}
+
+.arrow-for-connection{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    rotate: 45deg;
+    background-color: white;
+    margin-left: 245px;
+    margin-top: 5px;   
+    border-radius: 3px; 
+}
+
+.chat-login-Form {
+    background-color: #005D6F;
+    margin: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.chat-login-btn-title {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chat-login-btn {
+    background-color: transparent;
+    color: white;
+    padding: 1px 35px;
+    text-align: center;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.chat-login-btn:active {
+    box-shadow: 0px 3px 1px 0px black;
+    transform: translateY(5px);
+    
+}
+
+
+.chat-login-body {
+    padding: 20px 30px;
+}
+
+.chat-login-body label{
+    color: black;
+    font-weight: bolder;
+        font-size: 1rem;
+}
+
+
+
+.chat-login-body-input {
+    margin-bottom: 10px;
+    background-color: #005D6F;
+    border: 0px;
+    border-bottom: 1px solid #7CE917;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.chat-login-body-input:focus { 
+    outline: none;
+}
+
+.chat-login-body-input::placeholder{
+    padding: 5px;
+}
+
+
+.chat-submit-btn{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    background-color: #7CE917;
+    color: black;
+    padding: 3px;  
+    width: 100%;
+    border-radius: 30px;
+    border: 0px;
+    box-shadow: 0px 4px 4px 2px black;
+}
+
+.chat-submit-btn:hover {
+    background-color: white;
+    color: #005D6F;
+}
+
+.chat-submit-btn:active {
+    transform: translateY(5px);
+    background-color: white;
+    color: #005D6F;
+}
+.pass-show-btn-login{
+    border: 1px solid #7CE917;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #7CE917;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin: -33px 215px;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+
+.pass-show-btn-signin{
+    border: 1px solid #7CE917;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #7CE917;
+    position: absolute;
+    padding: 1px 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin: -33px 215px ;
+    cursor: pointer;
+}
+
+.pass-show-btn-login:hover {
+    color: white;
+}
+
+.pass-show-btn-signin:hover {
+    color: white;
+}

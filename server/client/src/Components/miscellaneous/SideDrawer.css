@@ -1,0 +1,58 @@
+.sidedrawer-navbar {
+    margin: 5px auto;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid ;
+    box-shadow: 0px 0px 27px 8px inset;
+    justify-content: space-around !important;
+    align-items: center;
+    padding: 0px;
+}
+
+.sidedrawer-avatar{
+    border-radius: 100%;
+}
+
+.sidedrawer-menu {
+    text-align: center !important;
+    background-color: #7CE917 !important;
+}
+
+
+.sidedrawer-notification{
+    align-items: center;
+}
+
+.sidedrawer-notification-link {
+    border: 0px !important;
+}
+
+.sidedrawer-notification-link:hover{
+    color: white !important;
+    border: 0px !important;
+}
+
+.navbar-brand{
+    font-size: 240% !important;
+    font-family: "Fascinate Inline", system-ui !important;
+}
+
+.navbar-brand:hover {
+    text-shadow: 2px 2px 1px silver !important;
+}
+.sidedrawer-btn{
+    width: 100%;
+    border: 0px !important;
+}
+.sidedrawer-btn:hover{
+    color: white !important;
+    border: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+            font-size: 150% !important;
+            padding:5px;
+        }
+}

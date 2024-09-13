@@ -1,0 +1,35 @@
+.chatbox-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 0px 2px 5px 10px;
+    width: 66%;
+    height: 459px;
+}
+
+@media only screen and (max-width: 600px) {
+    .chatbox-container {
+        display: block;
+        width: 96%;
+        height: 52%;
+        position: fixed;
+        top: 16%;
+        margin-top: -15px;
+        margin-left: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .chatbox-container {
+        display: block;
+        width: 96%;
+        height: 57%;
+        position: fixed;
+        margin-left: 2%;
+        top: 10%;
+    }
+}
