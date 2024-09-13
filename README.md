@@ -1,2 +1,4 @@
 # Mukhomukhi-Real-time-Chat-Application
- This application is build using MERN full Stack
+The MERN full stack architecture was employed to construct this application.
+
+
